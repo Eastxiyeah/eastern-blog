@@ -1,0 +1,35 @@
+.container {
+    
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.item:hover .image {
+    transform: scale(1.1);
+}
+
+.imgContainer {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.image {
+    object-fit: cover;
+    transition: 0.2s;
+}
+
+.content {
+    flex: 1;
+}
+
+.title {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,52 @@
+.mainTitle {
+ font-size: 80px;
+ /* color: #ee7a65; */
+}
+
+.container {
+    
+}
+
+.selectTitle {
+    margin: 20px 0;
+}
+
+.itmes {
+    display: flex;
+    gap: 50px;
+}
+
+.item {
+    border: 5px solid #bbb;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-size: cover;
+}
+
+.item:nth-child(1) {
+    background-image: url('/illustration.png');
+}
+
+.item:nth-child(2) {
+    background-image: url('/websites.jpg');
+}
+
+.item:nth-child(3) {
+    background-image: url('/apps.jpg');
+}
+
+.item:hover .title {
+    color: #ee7a65;
+}
+
+.title {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    transition: 0.2s;
+    color: #444;
+}
